@@ -74,7 +74,10 @@
    */
 
   /* font-family */
-  --ff-poppins: 'Poppins', sans-serif;
+ body {
+  font-family: 'Fira Code', monospace;
+}
+
 
   /* font-size */
   --fs-1: 24px;
@@ -109,6 +112,70 @@
   --transition-1: 0.25s ease;
   --transition-2: 0.5s ease-in-out;
 
+}
+
+/* ============================= */
+/* LIGHT THEME OVERRIDES (EU)    */
+/* ============================= */
+
+:root {
+
+  /* backgrounds */
+--smoky-black: #232320;
+  --eerie-black-1: #FFFFFF;   /* cards */
+  --eerie-black-2: #FFFFFF;   /* cards */
+  --onyx: #F3F4F6;
+  --jet: #E5E7EB;
+
+  /* text */
+  --white-1: #111827;
+  --white-2: #111827;
+  --light-gray: #374151;
+  --light-gray-70: #6B7280;
+
+  /* accents (keep subtle) */
+  --orange-yellow-crayola: #2563EB;
+  --vegas-gold: #2563EB;
+
+  /* gradients → flat light */
+  --bg-gradient-onyx: #FFFFFF;
+  --bg-gradient-jet: #FFFFFF;
+  --border-gradient-onyx: #FFFFFF;
+  --text-gradient-yellow: linear-gradient(
+    to right,
+    #2563EB,
+    #1D4ED8
+  );
+}
+
+.skills-cards {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.skill-card {
+  background-color: #f5f5f5;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+  flex: 1 1 250px;
+}
+
+.skill-card h4 {
+  margin-bottom: 10px;
+  font-size: 1.2rem;
+  color: #333;
+}
+
+.skill-card ul {
+  list-style: none;
+  padding: 0;
+}
+
+.skill-card li {
+  margin-bottom: 6px;
+  font-size: 1rem;
 }
 
 
@@ -153,7 +220,7 @@ input, textarea {
 
 :focus { outline-color: var(--orange-yellow-crayola); }
 
-html { font-family: var(--ff-poppins); }
+html { font-family: var(--ff-monospace); }
 
 body { background: var(--smoky-black); }
 
@@ -459,7 +526,7 @@ main {
   bottom: 0;
   left: 0;
   width: 100%;
-  background: hsla(240, 1%, 17%, 0.75);
+  background: rgba(255, 255, 255, 0.85);
   backdrop-filter: blur(10px);
   border: 1px solid var(--jet);
   border-radius: 12px 12px 0 0;
