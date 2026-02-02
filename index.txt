@@ -1,24 +1,24 @@
-vCard - Personal Portfolio
+Karthik - Personal Portfolio
 
 # sidebar
 
-alt = Richard hanrick
-Richard hanrick
-Web developer
+alt = Karthik Kuppala
+Karthik Kuppala
+AI and Analytics
 
 Show Contacts
 
 Email
-richard@example.com
+Karthikkuppala23@gmail.com
 
 Phone
-+1 (213) 352-2795
++1 (814) 215-1294
 
-Birthday
-June 23, 1982
+Currently Working on
+AI Chatbots
 
 Location
-Sacramento, California, USA
+Philadelphia, USA
 
 # navbar
 
@@ -32,56 +32,55 @@ Contact
 
 About me
 
-I'm Creative Director and UI/UX Designer from Sydney, Australia, working in web development and print media. I enjoy turning complex problems into simple, beautiful and intuitive designs.
+I am a AI and Data Analytics professional with a strong foundation in Python, SQL and R. My main specialities include Analytics, AI + ML, and Data Engineering, combined with practical experience working on real-world problems. I hold a Bachelor’s degree in Computational Data Sciences from The Penn State University and have worked in AI & Analytics-focused roles across internships and full-time positions.
 
-My job is to build your website so that it is functional and user-friendly but at the same time attractive. Moreover, I add personal touch to your product and make sure that is eye-catching and easy to use. My aim is to bring across your message and identity in the most creative way. I created web design for many famous brand companies.
-
+My work spans large-scale data processing, exploratory data analysis, and AI+ML-driven insights, with projects in domains such as traffic analytics, public health (COVID-19), and algorithmic decision-making systems. I am particularly interested in the intersection of technology, decision-making, and management, and I am always seeking opportunities that offer international exposure.
 
 ## service
 
 What i'm doing
 
-alt = design icon
-Web design
-The most modern and high-quality design made at a professional level.
+alt = graph icon
+Data Analytics
+Analyzing and visualizing data to generate actionable insights that support data-driven decision-making.
 
-alt = Web development icon
-Web development
-High-quality development of sites at the professional level.
+alt = cpu icon
+AI And Applied ML
+Building and evaluating Artificial Intelligence and Machine Learning models with a focus on performance, interpretability, and real-world applicability.
 
-alt = mobile app icon
+alt = server icon
 Mobile apps
 Professional development of applications for iOS and Android.
 
-alt = camera icon
-Photography
-I make high-quality photos of any category at a professional level.
+alt = eye icon
+Responsible & Ethical AI
+Studying bias, transparency, and trust in algorithmic decision-making systems, especially in regulated and high-impact domains.
 
 
 ## testimonials
 
 Testimonials
 
-alt = Daniel lewis
-Daniel lewis
-Richard was hired to create a corporate identity. We were very pleased with the work done. She has a lot of experience and is very concerned about the needs of client. Lorem ipsum dolor sit amet, ullamcous cididt consectetur adipiscing elit, seds do et eiusmod tempor incididunt ut laborels dolore magnarels alia.
+alt = Jane Doe
+Jane Doe
+Blah blah blah, ohmaoma ok ianisa oamiaomsa oa.
 
-alt = Jessica miller
-Jessica miller
-Richard was hired to create a corporate identity. We were very pleased with the work done. She has a lot of experience and is very concerned about the needs of client. Lorem ipsum dolor sit amet, ullamcous cididt consectetur adipiscing elit, seds do et eiusmod tempor incididunt ut laborels dolore magnarels alia.
+alt = Jhon Snow
+Jhon Snow
+Blah blah blah, ohmaoma ok ianisa oamiaomsa oa.
 
-alt = Emily evans
-Emily evans
-Richard was hired to create a corporate identity. We were very pleased with the work done. She has a lot of experience and is very concerned about the needs of client. Lorem ipsum dolor sit amet, ullamcous cididt consectetur adipiscing elit, seds do et eiusmod tempor incididunt ut laborels dolore magnarels alia.
+alt = Donald Trump
+Donald Trump
+Blah blah blah, ohmaoma ok ianisa oamiaomsa oa.
 
-alt = Henry william
-Henry william
-Richard was hired to create a corporate identity. We were very pleased with the work done. She has a lot of experience and is very concerned about the needs of client. Lorem ipsum dolor sit amet, ullamcous cididt consectetur adipiscing elit, seds do et eiusmod tempor incididunt ut laborels dolore magnarels alia.
+alt = Joe Biden
+Joe Biden
+Blah blah blah, ohmaoma ok ianisa oamiaomsa oa.
 
 
 ## clients
 
-Clients
+* Organizations I Worked With/Featured In:
 
 alt = client logo
 
@@ -122,13 +121,10 @@ Nemo enims ipsam voluptatem, blanditiis praesentium voluptum delenit atque corru
 My skills
 
 Web design
-80%
 Graphic design
-70%
 Branding
-90%
 WordPress
-50%
+
 
 
 
