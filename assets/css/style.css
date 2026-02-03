@@ -1985,3 +1985,87 @@ textarea.form-input::-webkit-resizer { display: none; }
   .timeline-text { max-width: 700px; }
 
 }
+
+/* =========================
+   FULL BLOG ARTICLE FIX
+   ========================= */
+
+/* Ensure the blog article container is visible */
+.blog-article {
+  display: block !important;
+  opacity: 1 !important;
+  pointer-events: auto !important;
+}
+
+/* Ensure all post items inside article are visible */
+.blog-article .blog-post-item {
+  display: block !important;
+}
+
+/* Show full text (disable line clamping) */
+.blog-article .blog-text {
+  display: block !important;
+  overflow: visible !important;
+  white-space: normal !important;
+  -webkit-line-clamp: unset !important;
+  line-clamp: unset !important;
+}
+
+/* Paragraph spacing */
+.blog-article p {
+  margin-bottom: 16px;
+}
+
+/* Lists inside blog */
+.blog-article ul,
+.blog-article ol {
+  margin: 16px 0;
+  padding-left: 24px;
+}
+
+/* Tables inside blog */
+.blog-article table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 24px 0;
+}
+
+.blog-article table th,
+.blog-article table td {
+  border: 1px solid var(--jet);
+  padding: 10px;
+  text-align: left;
+}
+
+/* Images inside blog */
+.blog-article img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 20px auto;
+  border-radius: 12px;
+}
+
+/* Headings spacing */
+.blog-article h1,
+.blog-article h2,
+.blog-article h3,
+.blog-article h4,
+.blog-article h5 {
+  margin-top: 32px;
+  margin-bottom: 16px;
+}
+
+/* Optional: captions / citations */
+.blog-article figure {
+  margin: 32px 0;
+  text-align: center;
+}
+
+.blog-article figcaption {
+  font-size: var(--fs-7);
+  color: var(--light-gray-70);
+  margin-top: 8px;
+  font-style: italic;
+}
+
