@@ -24,30 +24,28 @@
     }
 
     /* Navbar styling */
-    .navbar {
-      display: flex;
-      justify-content: center;
-      margin-bottom: 2rem;
-      background-color: #fff;
-      padding: 1rem;
-      box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
-    }
 
-    .navbar-list {
-      list-style: none;
-      display: flex;
-      gap: 1rem;
-      padding: 0;
-      margin: 0;
-    }
+ nav.navbar {
+  position: relative;
+  z-index: 10;
+}
+   .navbar {
+  display: flex;
+  justify-content: center;
+  background-color: #fff;
+  padding: 1.25rem 1rem; /* ⬅ more vertical space */
+  margin-bottom: 2.5rem; /* ⬅ pushes article down */
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
 
-    .navbar-link {
-      background: none;
-      border: none;
-      cursor: pointer;
-      font-size: 1rem;
-      padding: 0.5rem 1rem;
-    }
+.navbar-link {
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: 1rem;
+  line-height: 1.4; /* ⬅ KEY FIX */
+  padding: 0.5rem 1rem;
+}
 
     .navbar-link.active {
       font-weight: bold;
@@ -55,9 +53,9 @@
     }
 
     /* Blog article title */
-    .article-title {
-      margin-bottom: 0.25rem; /* reduce space under title */
-    }
+.blog-article {
+  margin-top: 1rem;
+}
 
     /* Author pill above banner */
     .blog-author {
