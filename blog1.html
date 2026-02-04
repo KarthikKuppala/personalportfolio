@@ -23,35 +23,44 @@
       padding: 0 1rem;
     }
 
-    /* Navbar styling */
+<main>
 
- nav.navbar {
-  position: relative;
-  z-index: 10;
+  <!-- NAVBAR (must be inside main and before article) -->
+  <nav class="navbar">
+    <ul class="navbar-list">
+      <li class="navbar-item">
+        <button class="navbar-link active" data-nav-link>Blog</button>
+      </li>
+      <li class="navbar-item">
+        <button class="navbar-link" data-nav-link>About</button>
+      </li>
+      <li class="navbar-item">
+        <button class="navbar-link" data-nav-link>Projects</button>
+      </li>
+      <li class="navbar-item">
+        <button class="navbar-link" data-nav-link>Contact</button>
+      </li>
+    </ul>
+  </nav>
+
+  <!-- BLOG ARTICLE -->
+  <article class="blog-article">
+    <!-- your existing blog HTML goes here -->
+  </article>
+
+</main>
+
+/* ---------------- MOBILE FIX ONLY ---------------- */
+@media (max-width: 768px) {
+  .navbar {
+    padding: 1.25rem 1rem; /* more vertical breathing room */
+    margin-bottom: 2.5rem;
+  }
+
+  .navbar-link {
+    line-height: 1.4; /* prevents text hover overlap */
+  }
 }
-   .navbar {
-  display: flex;
-  justify-content: center;
-  background-color: #fff;
-  padding: 1.25rem 1rem; /* ⬅ more vertical space */
-  margin-bottom: 2.5rem; /* ⬅ pushes article down */
-  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
-}
-
-.navbar-link {
-  background: none;
-  border: none;
-  cursor: pointer;
-  font-size: 1rem;
-  line-height: 1.4; /* ⬅ KEY FIX */
-  padding: 0.5rem 1rem;
-}
-
-    .navbar-link.active {
-      font-weight: bold;
-      text-decoration: underline;
-    }
-
     /* Blog article title */
 .blog-article {
   margin-top: 1rem;
@@ -232,17 +241,14 @@
           </thead>
           <tbody>
             <tr>
-              <td>Experimentation</td>
               <td>Python, PyTorch</td>
               <td>Testing and fine‑tuning small models.</td>
             </tr>
             <tr>
-              <td>Agents</td>
               <td>LangChain‑style frameworks</td>
               <td>Building simple assistants over my own data.</td>
             </tr>
             <tr>
-              <td>Deployment</td>
               <td>Docker, FastAPI</td>
               <td>Wrapping models into small, testable APIs.</td>
             </tr>
